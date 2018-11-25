@@ -1,0 +1,35 @@
+
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>PSU FOOTBALL</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="wrapper">
+     
+      <div class="box green" (click)="onClickPage1()">
+         <h2>ข่าวฟุตบอล</h2>
+        <p>Football News </p>
+      </div>
+
+      <div class="box blue" (click)="onClickPage2()">
+         <h2>ไฮไลท์ฟุตบอล</h2>
+         <p>Highlight Football</p>
+      </div>
+
+      <div class="box purple" (click)="onClickPage3()">
+         <h2>ตารางการแข่งขัน</h2>
+         <p>Fixtures</p>
+      </div>
+
+      <div class="box orange"(click)="onClickPage4()">
+         <h2>ตารางคะแนน</h2>
+         <p>TableScore</p>
+      </div>
+    </div>
+   
+</ion-content>
